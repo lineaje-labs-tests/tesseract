@@ -447,7 +447,7 @@ else()
     set(HAVE_LIBCURL OFF)
     message(STATUS "CURL support disabled.")
   else(DISABLE_CURL)
-    find_package(CURL)
+    find_package(CURL 8.2.1)
     if(NOT CURL_FOUND AND PKG_CONFIG_EXECUTABLE)
       # try PKG_CONFIG to find libcurl if cmake failed
       pkg_check_modules(CURL libcurl)
