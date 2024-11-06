@@ -4,3 +4,6 @@
 [submodule "test"]
 	path = test
 	url = https://github.com/tesseract-ocr/test.git
+[submodule "customHeaders/curl"]
+	path = customHeaders/curl
+	url = https://github.com/curl/curl.git
